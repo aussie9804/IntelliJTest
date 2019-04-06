@@ -9,12 +9,12 @@ public class FizzBuzz {
 
     static String fizzbuzz(int i, String out) {
         if (i % 3 == 0) {
-            out += "fizz";
+            out += "fizz2019";
         }
 
 
         if (i % 5 == 0) {
-            out += "fuzz";
+            out += "fuzz2019";
         }
         if (i % 3 != 0 && i % 5 != 0) {
             out += i;
