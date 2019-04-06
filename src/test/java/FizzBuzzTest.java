@@ -6,17 +6,17 @@ public class FizzBuzzTest {
 
     @Test
     public void fizz() {
-        assertEquals("fizz", FizzBuzz.fizzbuzz(3, ""));
+        assertEquals("fizz2019", FizzBuzz.fizzbuzz(3, ""));
     }
 
     @Test
     public void fuzz() {
-        assertEquals("fuzz", FizzBuzz.fizzbuzz(5, ""));
+        assertEquals("fuzz2019", FizzBuzz.fizzbuzz(5, ""));
     }
 
     @Test
     public void fizzfuzz() {
-        assertEquals("fizzfuzz", FizzBuzz.fizzbuzz(15, ""));
+        assertEquals("fizz2019fuzz2019", FizzBuzz.fizzbuzz(15, ""));
     }
 
     @Test
