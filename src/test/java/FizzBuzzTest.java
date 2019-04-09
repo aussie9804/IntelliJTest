@@ -31,6 +31,11 @@ public class FizzBuzzTest {
 
     @Test
     public void number_30() {
-        assertEquals("30", FizzBuzz.fizzbuzz(30, ""));
+        assertEquals("fizz2019fuzz2019", FizzBuzz.fizzbuzz(30, ""));
+    }
+
+    @Test
+    public void number_31() {
+        assertEquals("31", FizzBuzz.fizzbuzz(31, ""));
     }
 }
