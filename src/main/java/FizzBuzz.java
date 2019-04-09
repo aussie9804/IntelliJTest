@@ -1,6 +1,6 @@
 public class FizzBuzz {
     public static void main(String[] args) {
-        for (int i = 1; i < 31; i++) {
+        for (int i = 1; i < 40; i++) {
             String out = "";
             out = fizzbuzz(i, out);
             System.out.println(out);
