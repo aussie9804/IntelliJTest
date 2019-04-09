@@ -28,4 +28,9 @@ public class FizzBuzzTest {
     public void number_29() {
         assertEquals("29", FizzBuzz.fizzbuzz(29, ""));
     }
+
+    @Test
+    public void number_30() {
+        assertEquals("30", FizzBuzz.fizzbuzz(30, ""));
+    }
 }
